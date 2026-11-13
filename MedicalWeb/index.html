@@ -1,0 +1,672 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>WellCare Medical Clinic</title>
+    <link rel="icon" type="image/jpeg" href="images/fevicon.jpeg">
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <!-- Website Logo -->
+        <a class="navbar-brand" href="#home">
+          <span class="logo-icon">♥</span>
+
+          <span class="clinic-name">
+            WellCare
+            <small>Medical Clinic</small>
+          </span>
+        </a>
+
+        <!-- Mobile Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"> Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services"> Services </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#doctors"> Doctors </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials"> Testimonials </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+
+            <!-- Appointment Button -->
+            <li class="nav-item ms-lg-3">
+              <a href="#appointment" class="btn btn-primary rounded-pill">
+                Book Appointment →
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left Content -->
+          <div class="col-lg-6">
+            <p class="hero-subtitle">YOUR HEALTH, OUR PRIORITY</p>
+
+            <h1>Quality Healthcare for a <span>Healthier Life</span></h1>
+
+            <p class="hero-description">
+              We provide comprehensive medical services with compassion,
+              expertise and modern technology to keep you and your family
+              healthy.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#appointment" class="btn btn-primary rounded-pill">
+                Book Appointment →
+              </a>
+
+              <a href="#about" class="btn btn-outline-primary rounded-pill">
+                Watch Our Video
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Image -->
+          <div class="col-lg-6">
+            <div class="hero-image-container">
+              <div class="hero-background"></div>
+
+              <img
+                src="images/hero-doctor.jpg"
+                alt="Healthcare Doctor"
+                class="hero-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Clinic Information Section -->
+
+    <section class="clinic-section" id="about">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <!-- Clinic Image -->
+          <div class="col-lg-4 col-md-6">
+            <div class="clinic-image-box">
+              <img
+                src="images/clinic-reception.jpg"
+                alt="WellCare Clinic Reception"
+                class="clinic-image"
+              />
+            </div>
+          </div>
+
+          <!-- Our Clinic Card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="clinic-card">
+              <div class="clinic-icon">
+                <i class="bi bi-clipboard2-pulse"></i>
+              </div>
+
+              <h3>Our Clinic</h3>
+
+              <h5>Modern & Comfortable</h5>
+
+              <p>
+                Experience a welcoming environment with state-of-the-art
+                facilities and caring staff.
+              </p>
+
+              <a href="#contact" class="clinic-link"> Learn More → </a>
+            </div>
+          </div>
+
+          <!-- Our Services Card -->
+          <div class="col-lg-2 col-md-6">
+            <div class="clinic-card">
+              <div class="clinic-icon">
+                <i class="bi bi-people"></i>
+              </div>
+
+              <h3>Our Services</h3>
+
+              <h5>Comprehensive Care</h5>
+
+              <p>
+                From preventive care to specialized treatments, we offer a full
+                range of medical services.
+              </p>
+
+              <a href="#services" class="clinic-link"> Explore Services → </a>
+            </div>
+          </div>
+
+          <!-- Appointment Card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="clinic-card">
+              <div class="clinic-icon">
+                <i class="bi bi-calendar-check"></i>
+              </div>
+
+              <h3>Easy Appointments</h3>
+
+              <h5>Book in Minutes</h5>
+
+              <p>
+                Schedule your visit online, choose your doctor and get the care
+                you need quickly and easily.
+              </p>
+
+              <a href="#appointment" class="clinic-link"> Book Now → </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Doctors Section -->
+
+    <section class="doctors-section" id="doctors">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <!-- Section Introduction -->
+          <div class="col-lg-3">
+            <p class="section-subtitle">MEET OUR TEAM</p>
+
+            <h2>
+              Meet Our Expert
+              <span>Doctors</span>
+            </h2>
+
+            <p class="doctors-description">
+              Our team of experienced and compassionate doctors is here to
+              provide you with the best possible care, every step of the way.
+            </p>
+          </div>
+
+          <!-- Bootstrap Carousel -->
+          <div class="col-lg-9">
+            <div id="doctorsCarousel" class="carousel slide">
+              <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                  <div class="row g-3">
+                    <!-- Doctor 1 -->
+                    <div class="col-12 col-md-6">
+                      <div class="doctor-card">
+                        <img
+                          src="images/doctor-james.jpg"
+                          alt="Dr. James Wilson"
+                        />
+
+                        <h5>Dr. James Wilson</h5>
+                        <p>General Physician</p>
+
+                        <div class="doctor-experience">
+                          <i class="bi bi-award"></i>
+                          <span>10+ Years Experience</span>
+                        </div>
+
+                        <a href="#appointment" class="doctor-profile-btn">
+                          View Profile →
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Doctor 2 -->
+                    <div class="col-12 col-md-6">
+                      <div class="doctor-card">
+                        <img
+                          src="images/doctor-emily.jpg"
+                          alt="Dr. Emily Carter"
+                        />
+
+                        <h5>Dr. Emily Carter</h5>
+                        <p>Cardiologist</p>
+
+                        <div class="doctor-experience">
+                          <i class="bi bi-award"></i>
+                          <span>8+ Years Experience</span>
+                        </div>
+
+                        <a href="#appointment" class="doctor-profile-btn">
+                          View Profile →
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Second Slide -->
+                <div class="carousel-item">
+                  <div class="row g-3">
+                    <!-- Doctor 3 -->
+                    <div class="col-12 col-md-6">
+                      <div class="doctor-card">
+                        <img
+                          src="images/doctor-michael.jpg"
+                          alt="Dr. Michael Brown"
+                        />
+
+                        <h5>Dr. Michael Brown</h5>
+                        <p>Orthopedic Surgeon</p>
+
+                        <div class="doctor-experience">
+                          <i class="bi bi-award"></i>
+                          <span>12+ Years Experience</span>
+                        </div>
+
+                        <a href="#appointment" class="doctor-profile-btn">
+                          View Profile →
+                        </a>
+                      </div>
+                    </div>
+
+                    <!-- Doctor 4 -->
+                    <div class="col-12 col-md-6">
+                      <div class="doctor-card">
+                        <img
+                          src="images/doctor-sarah.jpg"
+                          alt="Dr. Sarah Davis"
+                        />
+
+                        <h5>Dr. Sarah Davis</h5>
+                        <p>Pediatrician</p>
+
+                        <div class="doctor-experience">
+                          <i class="bi bi-award"></i>
+                          <span>7+ Years Experience</span>
+                        </div>
+
+                        <a href="#appointment" class="doctor-profile-btn">
+                          View Profile →
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Carousel Controls -->
+              <div class="carousel-buttons">
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#doctorsCarousel"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#doctorsCarousel"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- Section 5: Medical Services -->
+<section class="services-section" id="services">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <!-- Left Image -->
+            <div class="col-lg-5">
+                <div class="services-image-box">
+                    <img src="images/nurse-care.jpg"
+                         alt="Nurse providing patient care"
+                         class="services-image">
+
+                    <div class="services-image-badge">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                        <div>
+                            <h6>Better Care</h6>
+                            <p>Brighter Tomorrow</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-7">
+                <div class="services-heading">
+                    <h2>Comprehensive <span>Medical Services</span></h2>
+                    <p>
+                        We offer a wide range of healthcare services tailored to your
+                        needs — from routine checkups to advanced treatments.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-clipboard2-pulse"></i>
+                            </div>
+                            <small>General</small>
+                            <h5>General Medicine</h5>
+                            <p>Routine & Preventive Care</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-heart-pulse"></i>
+                            </div>
+                            <small>Cardiac</small>
+                            <h5>Cardiology</h5>
+                            <p>Heart Health & Wellness</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
+                            <small>Pediatrics</small>
+                            <h5>Pediatrics</h5>
+                            <p>Children's Health</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-wrench-adjustable"></i>
+                            </div>
+                            <small>Orthotics</small>
+                            <h5>Orthopedics</h5>
+                            <p>Bone & Joint Care</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-bandaid"></i>
+                            </div>
+                            <small>Acute</small>
+                            <h5>Dermatology</h5>
+                            <p>Skin & Hair Care</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-6">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-gender-female"></i>
+                            </div>
+                            <small>Care</small>
+                            <h5>Gynecology</h5>
+                            <p>Women's Health</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Section 6: Book Your Appointment -->
+
+
+<section class="appointment-section" id="appointment">
+    <div class="container">
+        <div class="appointment-box">
+
+            <div class="row align-items-center">
+
+                <!-- Appointment Information -->
+                <div class="col-lg-6">
+                    <div class="appointment-info">
+
+                        <div class="appointment-icon">
+                            <i class="bi bi-calendar3"></i>
+                        </div>
+
+                        <div class="appointment-text">
+                            <h2>Book Your Appointment</h2>
+                            <p>
+                                Take the first step towards better health.
+                                Schedule your appointment today and let us
+                                care for you.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Appointment Form -->
+                <div class="col-lg-6">
+                    <div class="appointment-form">
+
+                        <form id="appointmentForm">
+
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                    <label for="fullName">Full Name *</label>
+                                    <input type="text"
+                                           id="fullName"
+                                           class="form-control"
+                                           placeholder="Enter your name"
+                                           required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="phone">Phone Number *</label>
+                                    <input type="tel"
+                                           id="phone"
+                                           class="form-control"
+                                           placeholder="Enter your phone"
+                                           required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="department">Select Department *</label>
+                                    <select id="department"
+                                            class="form-select"
+                                            required>
+                                        <option value="">Choose department</option>
+                                        <option>General Medicine</option>
+                                        <option>Cardiology</option>
+                                        <option>Pediatrics</option>
+                                        <option>Orthopedics</option>
+                                        <option>Dermatology</option>
+                                        <option>Gynecology</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label for="date">Preferred Date *</label>
+                                    <input type="date"
+                                           id="date"
+                                           class="form-control"
+                                           required>
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit" class="appointment-btn">
+                                        <i class="bi bi-calendar-check"></i>
+                                        Book Appointment
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+
+<footer class="footer-section">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- Clinic Information -->
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-about">
+
+                    <a href="#home" class="footer-logo">
+                        <i class="bi bi-heart-pulse-fill"></i>
+                        WellCare
+                    </a>
+
+                    <p>
+                        Your health is our priority. We provide quality
+                        healthcare services with compassion and care
+                        for you and your family.
+                    </p>
+
+                    <!-- Social Media -->
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+
+                        <a href="#" aria-label="Twitter">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-lg-4 col-md-6">
+                <h5>Quick Links</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#doctors">Our Doctors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="col-lg-4 col-md-6">
+                <h5>Contact Details</h5>
+
+                <ul class="footer-contact">
+                    <li>
+                        <i class="bi bi-geo-alt"></i>
+                        Kavali, AndhraPradesh
+                    </li>
+
+                    <li>
+                        <i class="bi bi-telephone"></i>
+                        +91 96766 11257
+                    </li>
+
+                    <li>
+                        <i class="bi bi-envelope"></i>
+                        info@wellcareclinic.com
+                    </li>
+
+                    <li>
+                        <i class="bi bi-clock"></i>
+                        Mon - Sat: 9 AM - 8 PM
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>© 2026 WellCare Medical Clinic. All Rights Reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
